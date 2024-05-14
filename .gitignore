@@ -1,0 +1,27 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/Doctor-Appointment/node_modules
+/Doctor-Appointment/.pnp
+.pnp.js
+Doctor-Appointment/api/logs/winston
+
+# testing
+/Doctor-Appointment/coverage
+
+# production
+/Doctor-Appointment/build
+
+# misc
+.DS_Store
+.env.local
+.env.development
+.env.test.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+/HealthCure Full/Alzheimer Detection/Alzheimer_Dataset
+/HealthCure Full/Brain Tumor Detection/brain_tumor_dataset
+/HealthCure Full/Pneumonia Detection/chest_xray
+/HealthCure Full/models
